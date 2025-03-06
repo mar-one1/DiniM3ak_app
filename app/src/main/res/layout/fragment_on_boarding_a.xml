@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_icon_app" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Welcome to our app"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="Description:
+        Notecook is your digital recipe book and culinary network.
+        Save and organize your favorite recipes, discover new ones,
+        and share them with a community of food lovers.
+        Connect with chefs and experts for personalized cooking advice and explore expert-approved tips.
+        Whether you’re a home cook or a food enthusiast,
+        Notecook helps you elevate your kitchen skills and create delicious meals effortlessly."
+        android:textSize="20sp" />
+</LinearLayout>
